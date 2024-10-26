@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import StackNavigation from '../navigation/StackNavigator.js'
+import FoodApp from '../components/FoodApp.js'
 
 const index = () => {
   return (
-    <StackNavigation />
+    <FoodApp />
   )
 }
 
