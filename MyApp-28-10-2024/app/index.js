@@ -1,11 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import TV from '../components/TV.js'
+import StackNavigation from '../navigation/StackNavigator'
 
 
 const index = () => {
   return (
-    <TV></TV>
+    <StackNavigation></StackNavigation>
   )
 }
 
