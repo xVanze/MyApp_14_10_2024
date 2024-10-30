@@ -1,12 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import FriendListScreen from '../components/FriendListScreen'
-import FlexBoxDemo from '../components/FlexBoxDemo'
+import House from '../components/House'
 
 
 const index = () => {
   return (
-    <FlexBoxDemo></FlexBoxDemo>
+    <House></House>
   )
 }
 
