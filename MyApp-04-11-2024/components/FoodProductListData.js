@@ -1,0 +1,75 @@
+const FoodProductListData = [
+  {
+    id: 1,
+    name: 'Hamburger',
+    description: 'Juicy beef patty on a fresh bun with all the fixings',
+    price: 5.99,
+    stock:10,
+    image: 'https://junger.vn/medias/jungerb/images/t76e-hero.jpg',
+  },
+  {
+    id: 2,
+    name: 'Pizza',
+    description: 'Freshly made pizza with your choice of toppings',
+    price: 9.99,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcf7kbVvuvyeGYyxWUygRVesW3hYA-4RmwYg&s',
+  },
+  {
+    id: 3,
+    name: 'Salad',
+    description: 'Fresh greens and veggies with your choice of dressing',
+    price: 4.99,
+    image: 'https://cdn.tgdd.vn/2021/03/CookProduct/Rocket-Salad-How-to-make-delicious-Arugula-salad-Healthy-Salad-Recipe-0-9-screenshot-1200x675.jpg',
+  },
+  {
+    id: 4,
+    name: 'Fries',
+    description: 'Crispy and delicious, perfect as a side or on their own',
+    price: 2.99,
+    image: 'https://www.recipetineats.com/tachyon/2022/09/Crispy-Fries_8.jpg?resize=500%2C500',
+  },
+  {
+    id: 5,
+    name: 'Ice Cream',
+    description: 'Rich and creamy, the perfect dessert any time of day',
+    price: 3.99,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg',
+  },
+  {
+    id: 6,
+    name: 'Big Hamburger',
+    description: 'Juicy beef patty on a fresh bun with all the fixings',
+    price: 5.99,
+    image: 'https://do64rle4ostpe.cloudfront.net/017a43ba-b1ad-c0cd-d36d-dc11567b34a0',
+  },
+  {
+    id: 7,
+    name: 'Big Pizza',
+    description: 'Freshly made pizza with your choice of toppings',
+    price: 9.99,
+    image: 'https://media.istockphoto.com/id/1256339158/photo/large-american-style-pepperoni-and-cheese-pizza-in-cardboard-delivery-box.jpg?s=612x612&w=0&k=20&c=1UiXI-B0iGuHrFj5Gi3dz0sSTwx5gEXVmEpmCPJiJqI=',
+  },
+  {
+    id: 8,
+    name: 'Big Salad',
+    description: 'Fresh greens and veggies with your choice of dressing',
+    price: 4.99,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzpdHsf5RKQ7aJNE4glvG8kIp7zcITytoioA&s',
+  },
+  {
+    id: 9,
+    name: 'Big Fries',
+    description: 'Crispy and delicious, perfect as a side or on their own',
+    price: 2.99,
+    image: 'https://cdn.vox-cdn.com/thumbor/njbrA0jYuJTzqSgPG9YBx8P8AHc=/0x0:897x699/1200x800/filters:focal(386x330:528x472)/cdn.vox-cdn.com/uploads/chorus_image/image/67566730/mr_fries.0.jpg',
+  },
+  {
+    id: 10,
+    name: 'Big Ice Cream',
+    description: 'Rich and creamy, the perfect dessert any time of day',
+    price: 3.99,
+    image: 'https://img.freepik.com/premium-photo/big-melting-most-delicious-ice-cream-cone_124507-29883.jpg',
+  },
+];
+
+export default FoodProductListData;
