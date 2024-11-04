@@ -1,6 +1,5 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import FoodProductList from "../components/FoodProductList";
 import LoginScreen from "../components/Login"; // Màn hình đăng nhập
 import MainStoreScreen from "../components/MainStore"; // Màn hình trang chủ sau đăng nhập
 import Store from "../components/Store";

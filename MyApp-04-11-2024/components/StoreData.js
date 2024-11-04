@@ -1,16 +1,16 @@
 const StoreData = {
     Category: [
-      { name: 'Ăn nhanh', CategoryImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl73vPS1OeKzDtyJCldosqMnF2Mp3FdV1XwQ&s' },
-      { name: 'Nướng', CategoryImage: 'https://static.kinhtedothi.vn/w960/images/upload/2021/12/19/nuong1.jpg' },
+      { name: 'Ăn nhanh', CategoryImage: 'https://cdn.tgdd.vn/2020/12/CookProduct/Thuc-an-nhanh-la-gi-tac-hai-cua-thuc-an-nhanh-va-cac-loai-tot-cho-suc-khoe-1-1200x676.jpg' },
+      { name: 'Nướng', CategoryImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjNBSn_xwdvnsacM4yKq66Z_lhToN4feelzw&s' },
       { name: 'Cà phê', CategoryImage: 'https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/8/14/2121767707dcce179f6866d132a2d6a384312f9-1723600454996-1723600455541950721311.jpg' },
-      { name: 'Trà sữa', CategoryImage: 'https://congthucphache.com/wp-content/uploads/2023/09/Tra-sua-truyen-thong.png' },
-      { name: 'Sinh tố', CategoryImage: 'https://horecavn.com/wp-content/uploads/2024/05/cac-chieu-khong-the-bo-qua-khi-lam-sinh-to_20240527011021.gif' },
+      { name: 'Trà sữa', CategoryImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcdf2vqBIiha7URosKRZ-jDvQyaHB7JEIKhQ&s' },
+      { name: 'Sinh tố', CategoryImage: 'https://www.bartender.edu.vn/wp-content/uploads/2020/06/cach-lam-sinh-to-trai-cay-ngon.jpg' },
       { name: 'Lẩu', CategoryImage: 'https://cdnv2.tgdd.vn/mwg-static/common/Common/keovll.jpg' },
     ],
     Banner: [
       'https://inan2h.vn/wp-content/uploads/2022/12/in-banner-quang-cao-do-an-3.jpg',
       'https://file.hstatic.net/1000301274/article/gdn01152024_sale_dau_nam_900x600_5b31fc30739b455b9b073d3b0f10fabf_grande.jpg',
-      'https://file.hstatic.net/1000301274/article/gdn01152024_sale_dau_nam_900x600_5b31fc30739b455b9b073d3b0f10fabf_grande.jpg'
+      'https://img.freepik.com/free-vector/discount-voucher-with-details_1017-7944.jpg'
     ],
     Store: [
       {
