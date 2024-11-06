@@ -6,7 +6,7 @@ import MainStore from '../components/MainStore'
 
 const index = () => {
   return (
-    <MainStore />
+    <StackNavigation />
   )
 }
 

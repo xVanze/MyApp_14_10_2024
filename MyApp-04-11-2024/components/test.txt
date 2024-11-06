@@ -1,0 +1,8 @@
+const handleLogin = () => {
+    if (phone === '343536238' && password === '123456789') {
+      // Nếu đăng nhập thành công, điều hướng đến MainStore
+      navigation.replace('MainStore');
+    } else {
+      alert('Số điện thoại hoặc mật khẩu không đúng!');
+    }
+  };
