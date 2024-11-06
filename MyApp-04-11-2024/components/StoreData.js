@@ -130,5 +130,44 @@ export const Store = [
         { name: 'Pudding caramel', price: '20.000', ImageProduct: 'placeholder-product-image-url' }
       ]
     }
-  }
+  },
+  {
+    Name: 'Pizza Paradise',
+    ActiveTime: '09:00 - 22:00 (T2 - CN)',
+    Rating: 4.5,
+    ReviewTime: '100+',
+    Address: '456 Đường B, Quận 3, TP. HCM',
+    DeliveryTime: '20-30 phút',
+    ImageProduct: 'placeholder-product-image-url',
+    Product: {
+      'Pizza': [
+        { name: 'Pizza hải sản', price: '150.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Pizza thập cẩm', price: '140.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Pizza bò', price: '130.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Pizza gà', price: '120.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Pizza chay', price: '110.000', ImageProduct: 'placeholder-product-image-url' }
+      ],
+      'Món ăn kèm': [
+        { name: 'Khoai tây nghiền', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Salad Caesar', price: '45.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Bánh mì bơ tỏi', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Gà viên chiên', price: '50.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Xúc xích nướng', price: '55.000', ImageProduct: 'placeholder-product-image-url' }
+      ],
+      'Đồ uống': [
+        { name: 'Coca Cola', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Pepsi', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Trà đào', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Soda chanh', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Nước khoáng', price: '10.000', ImageProduct: 'placeholder-product-image-url' }
+      ],
+      'Tráng miệng': [
+        { name: 'Bánh Tiramisu', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Bánh su kem', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Kem dâu', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Bánh pancake', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
+        { name: 'Pudding xoài', price: '20.000', ImageProduct: 'placeholder-product-image-url' }
+      ]
+    }
+  },
 ];
