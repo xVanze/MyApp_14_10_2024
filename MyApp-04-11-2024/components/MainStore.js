@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, FlatList, Image, TouchableOpacity, StyleSheet, ScrollView, Dimensions } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient'; // Import LinearGradient
+import { LinearGradient } from 'expo-linear-gradient';
 import { Category, Banner, Store } from './StoreData';
 
 const { width } = Dimensions.get('window');
