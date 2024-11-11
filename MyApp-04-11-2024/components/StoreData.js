@@ -25,32 +25,32 @@ export const Store = [
     ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Món chính': [
-        { name: 'Chân gà nướng', price: '50.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Chân gà cay', price: '55.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cánh gà chiên', price: '60.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Mực chiên mắm', price: '65.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bò xào sả ớt', price: '70.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Chân gà nướng', price: '50.000', originalPrice: '60.000', discountedPrice: '50.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chân gà cay', price: '55.000', originalPrice: '65.000', discountedPrice: '55.000', discountPercentage: '15.38%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cánh gà chiên', price: '60.000', originalPrice: '70.000', discountedPrice: '60.000', discountPercentage: '14.29%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Mực chiên mắm', price: '65.000', originalPrice: '75.000', discountedPrice: '65.000', discountPercentage: '13.33%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bò xào sả ớt', price: '70.000', originalPrice: '80.000', discountedPrice: '70.000', discountPercentage: '12.5%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Món ăn kèm': [
-        { name: 'Khoai tây chiên', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Gỏi xoài', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Rau trộn', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Dưa leo', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cơm trắng', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Khoai tây chiên', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Gỏi xoài', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Rau trộn', price: '25.000', originalPrice: '30.000', discountedPrice: '25.000', discountPercentage: '16.67%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Dưa leo', price: '20.000', originalPrice: '25.000', discountedPrice: '20.000', discountPercentage: '20%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cơm trắng', price: '10.000', originalPrice: '12.000', discountedPrice: '10.000', discountPercentage: '16.67%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Đồ uống': [
-        { name: 'Trà chanh', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Nước ngọt', price: '12.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Sữa đậu nành', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bia', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Nước lọc', price: '5.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Trà chanh', price: '15.000', originalPrice: '18.000', discountedPrice: '15.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước ngọt', price: '12.000', originalPrice: '14.000', discountedPrice: '12.000', discountPercentage: '14.29%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sữa đậu nành', price: '18.000', originalPrice: '20.000', discountedPrice: '18.000', discountPercentage: '10%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bia', price: '20.000', originalPrice: '22.000', discountedPrice: '20.000', discountPercentage: '9.09%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước lọc', price: '5.000', originalPrice: '6.000', discountedPrice: '5.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Chè Thái', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Kem vani', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh flan', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Chuối nướng', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Rau câu', price: '12.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Chè Thái', price: '25.000', originalPrice: '30.000', discountedPrice: '25.000', discountPercentage: '16.67%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Kem vani', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh flan', price: '20.000', originalPrice: '25.000', discountedPrice: '20.000', discountPercentage: '20%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chuối nướng', price: '15.000', originalPrice: '18.000', discountedPrice: '15.000', discountPercentage: '16.67%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Rau câu', price: '12.000', originalPrice: '15.000', discountedPrice: '12.000', discountPercentage: '20%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   },
@@ -65,32 +65,32 @@ export const Store = [
     ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Pizza': [
-        { name: 'Pizza hải sản', price: '150.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Pizza thập cẩm', price: '140.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Pizza bò', price: '130.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Pizza gà', price: '120.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Pizza chay', price: '110.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Pizza hải sản', price: '150.000', originalPrice: '160.000', discountedPrice: '150.000', discountPercentage: '6.25%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza thập cẩm', price: '140.000', originalPrice: '150.000', discountedPrice: '140.000', discountPercentage: '6.67%', rating: 4.6, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza bò', price: '130.000', originalPrice: '140.000', discountedPrice: '130.000', discountPercentage: '7.14%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza gà', price: '120.000', originalPrice: '130.000', discountedPrice: '120.000', discountPercentage: '7.69%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza chay', price: '110.000', originalPrice: '120.000', discountedPrice: '110.000', discountPercentage: '8.33%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Món ăn kèm': [
-        { name: 'Khoai tây nghiền', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Salad Caesar', price: '45.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh mì bơ tỏi', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Gà viên chiên', price: '50.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Xúc xích nướng', price: '55.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Khoai tây nghiền', price: '40.000', originalPrice: '45.000', discountedPrice: '40.000', discountPercentage: '11.11%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Salad Caesar', price: '45.000', originalPrice: '50.000', discountedPrice: '45.000', discountPercentage: '10%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì bơ tỏi', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Gà viên chiên', price: '50.000', originalPrice: '55.000', discountedPrice: '50.000', discountPercentage: '9.09%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Xúc xích nướng', price: '55.000', originalPrice: '60.000', discountedPrice: '55.000', discountPercentage: '8.33%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Đồ uống': [
-        { name: 'Coca Cola', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Pepsi', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Trà đào', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Soda chanh', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Nước khoáng', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Coca Cola', price: '15.000', originalPrice: '18.000', discountedPrice: '15.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pepsi', price: '15.000', originalPrice: '18.000', discountedPrice: '15.000', discountPercentage: '16.67%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Trà đào', price: '25.000', originalPrice: '30.000', discountedPrice: '25.000', discountPercentage: '16.67%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Soda chanh', price: '20.000', originalPrice: '24.000', discountedPrice: '20.000', discountPercentage: '16.67%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước khoáng', price: '10.000', originalPrice: '12.000', discountedPrice: '10.000', discountPercentage: '16.67%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Bánh Tiramisu', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh su kem', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Kem dâu', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh pancake', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Pudding xoài', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Bánh Tiramisu', price: '40.000', originalPrice: '45.000', discountedPrice: '40.000', discountPercentage: '11.11%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh su kem', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Kem dâu', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh pancake', price: '25.000', originalPrice: '30.000', discountedPrice: '25.000', discountPercentage: '16.67%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pudding xoài', price: '20.000', originalPrice: '25.000', discountedPrice: '20.000', discountPercentage: '20%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   },
@@ -105,32 +105,32 @@ export const Store = [
     ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Cà phê': [
-        { name: 'Cà phê sữa', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cà phê đen', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cà phê dừa', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cappuccino', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Latte', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Cà phê sữa', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cà phê đen', price: '25.000', originalPrice: '30.000', discountedPrice: '25.000', discountPercentage: '16.67%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cà phê dừa', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cappuccino', price: '40.000', originalPrice: '45.000', discountedPrice: '40.000', discountPercentage: '11.11%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Latte', price: '40.000', originalPrice: '45.000', discountedPrice: '40.000', discountPercentage: '11.11%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Sinh tố': [
-        { name: 'Sinh tố bơ', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Sinh tố xoài', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Sinh tố dâu', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Sinh tố chuối', price: '28.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Sinh tố việt quất', price: '38.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Sinh tố bơ', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố xoài', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố dâu', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố chuối', price: '28.000', originalPrice: '32.000', discountedPrice: '28.000', discountPercentage: '12.5%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố việt quất', price: '38.000', originalPrice: '42.000', discountedPrice: '38.000', discountPercentage: '9.52%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Bánh ngọt': [
-        { name: 'Bánh mì nướng', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh su kem', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh quế', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh donut', price: '22.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh chocolate', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Bánh mì nướng', price: '20.000', originalPrice: '22.000', discountedPrice: '20.000', discountPercentage: '9.09%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh su kem', price: '25.000', originalPrice: '28.000', discountedPrice: '25.000', discountPercentage: '10.71%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh quế', price: '18.000', originalPrice: '20.000', discountedPrice: '18.000', discountPercentage: '10%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh donut', price: '22.000', originalPrice: '25.000', discountedPrice: '22.000', discountPercentage: '12%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh chocolate', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Pudding caramel', price: '28.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Tiramisu', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cheese cake', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Chè đậu xanh', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh flan', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Pudding caramel', price: '28.000', originalPrice: '32.000', discountedPrice: '28.000', discountPercentage: '12.5%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Tiramisu', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.6, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cheese cake', price: '40.000', originalPrice: '45.000', discountedPrice: '40.000', discountPercentage: '11.11%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chè đậu xanh', price: '25.000', originalPrice: '30.000', discountedPrice: '25.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh flan', price: '30.000', originalPrice: '35.000', discountedPrice: '30.000', discountPercentage: '14.29%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   },
@@ -145,32 +145,32 @@ export const Store = [
     ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Bánh mì thịt nướng': [
-        { name: 'Bánh mì thịt nướng', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh mì chả cá', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh mì gà xé', price: '38.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh mì bò xào', price: '45.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh mì xíu mại', price: '38.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Bánh mì thịt nướng', price: '35.000', originalPrice: '40.000', discountedPrice: '35.000', discountPercentage: '12.5%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì chả cá', price: '40.000', originalPrice: '45.000', discountedPrice: '40.000', discountPercentage: '11.11%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì gà xé', price: '38.000', originalPrice: '42.000', discountedPrice: '38.000', discountPercentage: '9.52%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì bò xào', price: '45.000', originalPrice: '50.000', discountedPrice: '45.000', discountPercentage: '10%', rating: 4.6, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì xíu mại', price: '38.000', originalPrice: '42.000', discountedPrice: '38.000', discountPercentage: '9.52%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Đồ ăn kèm': [
-        { name: 'Khoai tây chiên', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Rau sống', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Dưa leo', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Chả giò', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Xúc xích nướng', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Khoai tây chiên', price: '25.000', originalPrice: '28.000', discountedPrice: '25.000', discountPercentage: '10.71%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Rau sống', price: '15.000', originalPrice: '18.000', discountedPrice: '15.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Dưa leo', price: '10.000', originalPrice: '12.000', discountedPrice: '10.000', discountPercentage: '16.67%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chả giò', price: '18.000', originalPrice: '22.000', discountedPrice: '18.000', discountPercentage: '18.18%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Xúc xích nướng', price: '20.000', originalPrice: '23.000', discountedPrice: '20.000', discountPercentage: '13.04%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Nước uống': [
-        { name: 'Trà sữa', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Nước ép cam', price: '28.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Soda chanh', price: '22.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Cà phê đá', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Nước suối', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Trà sữa', price: '25.000', originalPrice: '28.000', discountedPrice: '25.000', discountPercentage: '10.71%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước ép cam', price: '28.000', originalPrice: '30.000', discountedPrice: '28.000', discountPercentage: '6.67%', rating: 4.4, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Soda chanh', price: '22.000', originalPrice: '25.000', discountedPrice: '22.000', discountPercentage: '12%', rating: 4.0, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cà phê đá', price: '20.000', originalPrice: '23.000', discountedPrice: '20.000', discountPercentage: '13.04%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước suối', price: '10.000', originalPrice: '12.000', discountedPrice: '10.000', discountPercentage: '16.67%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Bánh flan', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Chè đậu xanh', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Chè hạt sen', price: '22.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Kem dừa', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
-        { name: 'Bánh cam', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' }
+        { name: 'Bánh flan', price: '18.000', originalPrice: '20.000', discountedPrice: '18.000', discountPercentage: '10%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chè đậu xanh', price: '20.000', originalPrice: '22.000', discountedPrice: '20.000', discountPercentage: '9.09%', rating: 4.2, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chè hạt sen', price: '22.000', originalPrice: '25.000', discountedPrice: '22.000', discountPercentage: '12%', rating: 4.5, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Kem dừa', price: '25.000', originalPrice: '28.000', discountedPrice: '25.000', discountPercentage: '10.71%', rating: 4.3, ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh cam', price: '18.000', originalPrice: '20.000', discountedPrice: '18.000', discountPercentage: '10%', rating: 4.1, ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   }
