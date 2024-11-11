@@ -30,13 +30,13 @@ const Store = ({ route }) => {
             <Text style={styles.rating}>⭐ {store.Rating}</Text>
             <Text style={styles.reviewTime}>{store.ReviewTime} reviews</Text>
           </View>
-
+          <View style={{borderRightWidth: 1, borderColor: 'gray', opacity: 0.4}}></View>
           {/* Address */}
           <View style={styles.detailView}>
             <Ionicons name="location-sharp" size={18} color="red" />
             <Text style={styles.address}>Địa chỉ quán</Text>
           </View>
-
+          <View style={{borderRightWidth: 1, borderColor: 'gray', opacity: 0.4}}></View>
           {/* Delivery Time */}
           <View style={styles.detailView}>
             
