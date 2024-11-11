@@ -16,7 +16,7 @@ const TVList = () => {
         {/* TV Information */}
         <View style={styles.textContainer}>
           <Text style={styles.tvName}>{item.name}</Text>
-          <Text style={styles.tvPrice}>{item.price}</Text>
+          <Text style={styles.tvPrice}>Đơn giá: <Text style={{fontWeight: '600', color: 'black'}}>{item.price}</Text></Text>
         </View>
       </View>
     </TouchableOpacity>
@@ -36,34 +36,37 @@ const TVList = () => {
 // Styles
 const styles = StyleSheet.create({
   container: {
-    padding: 10,
+    paddingHorizontal: 10,
   },
   itemContainer: {
-    flexDirection: 'row',  // Align image and text horizontally
-    alignItems: 'center',  // Center the content vertically
+    flexDirection: 'row',
+    alignItems: 'center',
     marginBottom: 10,
     padding: 10,
-    borderWidth: 1,
-    borderColor: '#ddd',
+    borderBottomWidth: 1,
+    borderColor: 'gray',
     backgroundColor: '#fff',
+    height:100,
   },
   tvImage: {
-    width: 80,
-    height: 60,
+    width: 100,
+    height: 75,
     marginRight: 10,
-    backgroundColor: '#f0f0f0', // Placeholder background
+    backgroundColor: '#f0f0f0',
+    resizeMode: 'stretch',
   },
   textContainer: {
-    flex: 1, // Take up remaining space
+    marginBottom:40,
   },
   tvName: {
-    fontSize: 16,
-    fontWeight: 'bold',
+    fontSize: 15,
+    fontWeight: '600',
     marginBottom: 5,
   },
   tvPrice: {
-    fontSize: 14,
-    color: '#888',
+    fontSize: 13,
+    color: 'red',
+    fontWeight: '600'
   },
 });
 
