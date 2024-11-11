@@ -162,7 +162,7 @@ const MainStore = ({ navigation }) => {
             />
             <Text style={styles.storeName}>{item.Name}</Text>
             <Text style={styles.storeRating}>
-              ⭐⭐⭐⭐⭐ {item.Rating} ({item.ReviewTime})
+              ⭐⭐⭐⭐⭐ {item.Rating}
             </Text>
           </TouchableOpacity>
         )}

@@ -21,35 +21,36 @@ export const Store = [
     ReviewTime: '50+',
     Address: '123 Đường A, Quận 1, TP. HCM',
     DeliveryTime: '11-20 phút',
-    ImageProduct: 'placeholder-product-image-url',
+    Logo: 'https://via.placeholder.com/150', // Logo cửa hàng
+    ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Món chính': [
-        { name: 'Chân gà nướng', price: '50.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Chân gà cay', price: '55.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Cánh gà chiên', price: '60.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Mực chiên mắm', price: '65.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bò xào sả ớt', price: '70.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Chân gà nướng', price: '50.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chân gà cay', price: '55.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cánh gà chiên', price: '60.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Mực chiên mắm', price: '65.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bò xào sả ớt', price: '70.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Món ăn kèm': [
-        { name: 'Khoai tây chiên', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Gỏi xoài', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Rau trộn', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Dưa leo', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Cơm trắng', price: '10.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Khoai tây chiên', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Gỏi xoài', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Rau trộn', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Dưa leo', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cơm trắng', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Đồ uống': [
-        { name: 'Trà chanh', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước ngọt', price: '12.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Sữa đậu nành', price: '18.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bia', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước lọc', price: '5.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Trà chanh', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước ngọt', price: '12.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sữa đậu nành', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bia', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước lọc', price: '5.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Chè Thái', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Kem vani', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh flan', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Chuối nướng', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Rau câu', price: '12.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Chè Thái', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Kem vani', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh flan', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chuối nướng', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Rau câu', price: '12.000', ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   },
@@ -60,35 +61,36 @@ export const Store = [
     ReviewTime: '100+',
     Address: '456 Đường B, Quận 3, TP. HCM',
     DeliveryTime: '20-30 phút',
-    ImageProduct: 'placeholder-product-image-url',
+    Logo: 'https://via.placeholder.com/150', // Logo cửa hàng
+    ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Pizza': [
-        { name: 'Pizza hải sản', price: '150.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza thập cẩm', price: '140.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza bò', price: '130.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza gà', price: '120.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza chay', price: '110.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Pizza hải sản', price: '150.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza thập cẩm', price: '140.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza bò', price: '130.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza gà', price: '120.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pizza chay', price: '110.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Món ăn kèm': [
-        { name: 'Khoai tây nghiền', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Salad Caesar', price: '45.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh mì bơ tỏi', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Gà viên chiên', price: '50.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Xúc xích nướng', price: '55.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Khoai tây nghiền', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Salad Caesar', price: '45.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì bơ tỏi', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Gà viên chiên', price: '50.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Xúc xích nướng', price: '55.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Đồ uống': [
-        { name: 'Coca Cola', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pepsi', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Trà đào', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Soda chanh', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước khoáng', price: '10.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Coca Cola', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pepsi', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Trà đào', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Soda chanh', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước khoáng', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Bánh Tiramisu', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh su kem', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Kem dâu', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh pancake', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pudding xoài', price: '20.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Bánh Tiramisu', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh su kem', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Kem dâu', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh pancake', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Pudding xoài', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   },
@@ -99,75 +101,77 @@ export const Store = [
     ReviewTime: '200+',
     Address: '789 Đường C, Quận 5, TP. HCM',
     DeliveryTime: '10-15 phút',
-    ImageProduct: 'placeholder-product-image-url',
+    Logo: 'https://via.placeholder.com/150', // Logo cửa hàng
+    ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
       'Cà phê': [
-        { name: 'Cà phê sữa', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Cà phê đen', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Cà phê dừa', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Cappuccino', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Latte', price: '40.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Cà phê sữa', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cà phê đen', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cà phê dừa', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cappuccino', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Latte', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Sinh tố': [
-        { name: 'Sinh tố bơ', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Sinh tố xoài', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Sinh tố dâu', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Sinh tố chuối', price: '28.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Sinh tố việt quất', price: '38.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Sinh tố bơ', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố xoài', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố dâu', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố chuối', price: '28.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Sinh tố việt quất', price: '38.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
-      'Nước ép': [
-        { name: 'Nước ép cam', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước ép táo', price: '28.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước ép cà rốt', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước ép ổi', price: '22.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước ép dưa hấu', price: '30.000', ImageProduct: 'placeholder-product-image-url' }
+      'Bánh ngọt': [
+        { name: 'Bánh mì nướng', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh su kem', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh quế', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh donut', price: '22.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh chocolate', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Bánh mì nướng phô mai', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh cupcake', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh bao', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh quy', price: '10.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pudding caramel', price: '20.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Pudding caramel', price: '28.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Tiramisu', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cheese cake', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chè đậu xanh', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh flan', price: '30.000', ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
   },
   {
-    Name: 'Pizza Paradise',
-    ActiveTime: '09:00 - 22:00 (T2 - CN)',
-    Rating: 4.5,
-    ReviewTime: '100+',
-    Address: '456 Đường B, Quận 3, TP. HCM',
-    DeliveryTime: '20-30 phút',
-    ImageProduct: 'placeholder-product-image-url',
+    Name: 'Bánh Mì Thịt Nướng',
+    ActiveTime: '06:00 - 22:00 (T2 - CN)',
+    Rating: 4.2,
+    ReviewTime: '150+',
+    Address: '321 Đường D, Quận 7, TP. HCM',
+    DeliveryTime: '10-15 phút',
+    Logo: 'https://via.placeholder.com/150', // Logo cửa hàng
+    ImageProduct: 'https://via.placeholder.com/600x200', // Ảnh cửa hàng (banner)
     Product: {
-      'Pizza': [
-        { name: 'Pizza hải sản', price: '150.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza thập cẩm', price: '140.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza bò', price: '130.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza gà', price: '120.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pizza chay', price: '110.000', ImageProduct: 'placeholder-product-image-url' }
+      'Bánh mì thịt nướng': [
+        { name: 'Bánh mì thịt nướng', price: '35.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì chả cá', price: '40.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì gà xé', price: '38.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì bò xào', price: '45.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh mì xíu mại', price: '38.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
-      'Món ăn kèm': [
-        { name: 'Khoai tây nghiền', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Salad Caesar', price: '45.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh mì bơ tỏi', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Gà viên chiên', price: '50.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Xúc xích nướng', price: '55.000', ImageProduct: 'placeholder-product-image-url' }
+      'Đồ ăn kèm': [
+        { name: 'Khoai tây chiên', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Rau sống', price: '15.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Dưa leo', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chả giò', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Xúc xích nướng', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
-      'Đồ uống': [
-        { name: 'Coca Cola', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pepsi', price: '15.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Trà đào', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Soda chanh', price: '20.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Nước khoáng', price: '10.000', ImageProduct: 'placeholder-product-image-url' }
+      'Nước uống': [
+        { name: 'Trà sữa', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước ép cam', price: '28.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Soda chanh', price: '22.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Cà phê đá', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Nước suối', price: '10.000', ImageProduct: 'https://via.placeholder.com/100' }
       ],
       'Tráng miệng': [
-        { name: 'Bánh Tiramisu', price: '40.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh su kem', price: '35.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Kem dâu', price: '30.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Bánh pancake', price: '25.000', ImageProduct: 'placeholder-product-image-url' },
-        { name: 'Pudding xoài', price: '20.000', ImageProduct: 'placeholder-product-image-url' }
+        { name: 'Bánh flan', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chè đậu xanh', price: '20.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Chè hạt sen', price: '22.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Kem dừa', price: '25.000', ImageProduct: 'https://via.placeholder.com/100' },
+        { name: 'Bánh cam', price: '18.000', ImageProduct: 'https://via.placeholder.com/100' }
       ]
     }
-  },
+  }
 ];
